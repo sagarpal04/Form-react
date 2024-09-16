@@ -1,0 +1,25 @@
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.form-button,
+.form-group label {
+  font-size: 1.5rem;
+}
+.form-button,
+.form-group .form-input {
+  padding: 0.4rem 0.4rem;
+}
+.form-group .category {
+  font-size: 1.6rem;
+  padding: 0.2rem;
+}
+.form-group .category:focus {
+  outline: none;
+}

@@ -1,0 +1,51 @@
+.expense-table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures borders don't double between cells */
+}
+.expense-table th {
+  font-size: 1.8rem;
+}
+.expense-table,
+.expense-table th,
+.expense-table td {
+  border: 1px solid #ccc; /* Sets a border for the table, headers, and cells */
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 0.8rem;
+  text-align: left;
+}
+.table-body {
+  font-size: 1.8rem;
+}
+.expense-table th,
+.table-header-category .category-select {
+  background-color: #f4f4f4; /* Adds a background color to the table headers */
+}
+
+.expense-table tfoot {
+  font-weight: bold;
+  background-color: #f9f9f9;
+  font-size: 1.6rem;
+}
+.table-header-category .category-select {
+  border: none;
+  width: 100%;
+  font-weight: inherit;
+  font-size: inherit;
+}
+.category-select:focus {
+  outline: none;
+}
+.table-header-amount {
+  display: flex;
+  justify-content: space-between;
+}
+.sort-icons {
+  display: flex;
+  gap: 0.2rem;
+}
+.sort-icons .arrows {
+  cursor: pointer;
+}

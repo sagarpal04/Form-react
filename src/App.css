@@ -1,0 +1,15 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 100rem;
+  margin: 10rem auto;
+}
+.app-header .app-title {
+  font-size: 3.2rem;
+}
+.app-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+}
